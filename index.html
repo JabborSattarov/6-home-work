@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="">
+        <a href="index.html">Films</a>
+       
+            <input id="inpSearch" type="text" placeholder="Search" name="search">
+
+
+    </header>
+
+    <main class="main">
+        <section class="sec-1">
+            <ul class="list-1">
+                
+            </ul>
+        </section>
+        
+        
+        <section class="sec-2">
+            <div class="head">Bookmark</div>
+            <ul class="list-2">
+
+            </ul>
+        </section>
+    </main>
+
+    <template id="template-1">
+        <li class="item">
+            <img class="img" src="" alt="image">
+            <h3 class="title">somr</h3>
+            <button class="bookmarkBtn">Bookmark</button>
+            <button class="read-more" type="button">Read more ...</button>
+            
+
+        </li>
+    </template>
+
+    <template id="template-2">
+        <li class="item-2">
+            <h2 class="title-2"></h2>
+            <button class="deleteBtn">Delete</button>
+        </li>
+    </template> 
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <button class="close"><span class="span"></span></button>
+        
+            <div class="box1">
+
+            <img class="modal__img" src="" alt="Image">
+
+            <div class="titles">
+                <h2 class="modal__title">Som</h2>
+                <p class="modal__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nobis voluptas atque eius debitis non a temporibus nisi quia repellendus.</p>
+            </div>
+
+        </div> 
+
+                <ul class="modal__ul"></ul>
+            
+        </div>
+    </div>
+
+    <!-- <template id="template-3">
+        
+    </template> -->
+
+    <script src="js/films.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
